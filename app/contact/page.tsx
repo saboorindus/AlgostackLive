@@ -23,7 +23,7 @@ export default function Contact() {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://reddlea.com/api/support', {
+      const response = await fetch('https://reddlea.com/api/submitSupportTicket', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -19,7 +19,7 @@ export default function Footer() {
               Building innovative software solutions that transform businesses and drive digital excellence.
             </p>
             <div className="flex space-x-4">
-              <a
+              {/* <a
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -27,9 +27,9 @@ export default function Footer() {
                 aria-label="GitHub"
               >
                 <Github className="w-5 h-5" />
-              </a>
+              </a> */}
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/algostack-pvt-ltd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors duration-300"
@@ -37,7 +37,7 @@ export default function Footer() {
               >
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a
+              {/* <a
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -52,7 +52,7 @@ export default function Footer() {
                 aria-label="Email"
               >
                 <Mail className="w-5 h-5" />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -82,7 +82,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-white font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
@@ -106,7 +106,7 @@ export default function Footer() {
                 </span>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center">
