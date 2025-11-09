@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.algostack.co
+
+# Sitemaps
+Sitemap: https://www.algostack.co/sitemap.xml
